@@ -1,23 +1,44 @@
-<DOCTYPE html>
-
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Clientes</title>
+    <style>
+        div {
+        width: 300; 
+        height: 300; 
+        background-color: coral; 
+        padding-left: 10px; 
+        border: 2px solid black;
+        }
 
-<meta charset="UTF-8">
-
-<title>Cliente</title>
-
+        input[type="text"] {
+        width: 300px;
+        text-transform: uppercase;
+        }
+        
+        input[type="email"] {
+        width: 400px;
+        text-transform: uppercase;
+        }
+       
+    </style>
 </head>
-
 <body>
-
-<hl>Informações adicionais sobre o produto</hl>
-<h1>Adicionado depois</h1>
-<input type="text" maxlength="20">
-
-<a href="mailto:cliente@dominio.com?subject=Sobre o produto&body=Prezado Sr.:Gostaria de receber mais informações sobre o produto.">Fale conosco</a>
-
+    <div>
+        <h1>Quick Contact</h1>
+        <h4>Contact us today, and get reply with in 24 hours!</h4>
+        <label>Nome:</label><br>
+        <input type="text" maxlength="40" placeholder="Nome"><br><br>
+        <label>Endereço:</label><br>
+        <input type="text" maxlength="40" placeholder="Endereço"><br><br>
+        <label>Telefone:</label><br>
+        <input type="tel" maxlength="30" placeholder="Telefone"><br><br>
+        <label>E-mail:</label><br>
+        <input type="email" maxlength="30" placeholder="Email"><br><b></b><br>
+        <input type="submit" value="Enviar" id="button"><br><br>
+    </div>
 </body>
-
 </html>
